@@ -1,89 +1,96 @@
 {
   "name": "sails-mysql",
   "version": "0.12.3",
+  "lockfileVersion": 1,
+  "requires": true,
   "dependencies": {
     "async": {
-      "version": "2.0.1",
-      "from": "https://registry.npmjs.org/async/-/async-2.0.1.tgz",
-      "resolved": "https://registry.npmjs.org/async/-/async-2.0.1.tgz",
+      "version": "https://registry.npmjs.org/async/-/async-2.0.1.tgz",
+      "integrity": "sha1-twnMAoCpw28J9FNr6CPIOKkEniU=",
+      "requires": {
+        "lodash": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
+      },
       "dependencies": {
         "lodash": {
-          "version": "4.16.4",
-          "from": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
+          "version": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz",
+          "integrity": "sha1-Ac4wa5utExnypVKGdPiCl663ASc="
         }
       }
     },
     "lodash": {
-      "version": "3.10.1",
-      "from": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz",
-      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      "version": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz",
+      "integrity": "sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y="
     },
     "mysql": {
-      "version": "2.11.1",
-      "from": "https://registry.npmjs.org/mysql/-/mysql-2.11.1.tgz",
-      "resolved": "https://registry.npmjs.org/mysql/-/mysql-2.11.1.tgz",
+      "version": "https://registry.npmjs.org/mysql/-/mysql-2.11.1.tgz",
+      "integrity": "sha1-e9v9pHcUH9Fe7sK3EDIMDSDOfQg=",
+      "requires": {
+        "bignumber.js": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-2.3.0.tgz",
+        "readable-stream": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz",
+        "sqlstring": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.0.1.tgz"
+      },
       "dependencies": {
         "bignumber.js": {
-          "version": "2.3.0",
-          "from": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-2.3.0.tgz",
-          "resolved": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-2.3.0.tgz"
+          "version": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-2.3.0.tgz",
+          "integrity": "sha1-WXoC15Htw9ZPF4UOIXieekCV32Y="
         },
         "readable-stream": {
-          "version": "1.1.14",
-          "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz",
-          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz",
+          "version": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz",
+          "integrity": "sha1-fPTFTvZI44EwhMY23SB54WbAgdk=",
+          "requires": {
+            "core-util-is": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+            "inherits": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+            "isarray": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
+            "string_decoder": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+          },
           "dependencies": {
             "core-util-is": {
-              "version": "1.0.2",
-              "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
-              "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
-            },
-            "isarray": {
-              "version": "0.0.1",
-              "from": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
-              "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
-            },
-            "string_decoder": {
-              "version": "0.10.31",
-              "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
-              "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+              "version": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+              "integrity": "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
             },
             "inherits": {
-              "version": "2.0.3",
-              "from": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
-              "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
+              "version": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+              "integrity": "sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4="
+            },
+            "isarray": {
+              "version": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
+              "integrity": "sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8="
+            },
+            "string_decoder": {
+              "version": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+              "integrity": "sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ="
             }
           }
         },
         "sqlstring": {
-          "version": "2.0.1",
-          "from": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.0.1.tgz",
-          "resolved": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.0.1.tgz"
+          "version": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.0.1.tgz",
+          "integrity": "sha1-vNPDkxrxpat9VKVY6zVjyj03i5g="
         }
       }
     },
     "waterline-cursor": {
-      "version": "0.0.7",
-      "from": "https://registry.npmjs.org/waterline-cursor/-/waterline-cursor-0.0.7.tgz",
-      "resolved": "https://registry.npmjs.org/waterline-cursor/-/waterline-cursor-0.0.7.tgz",
+      "version": "https://registry.npmjs.org/waterline-cursor/-/waterline-cursor-0.0.7.tgz",
+      "integrity": "sha1-zNnP7WYdlK9gJ0lZQrX6J61l/rM=",
+      "requires": {
+        "async": "https://registry.npmjs.org/async/-/async-1.5.2.tgz",
+        "lodash": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      },
       "dependencies": {
         "async": {
-          "version": "1.5.2",
-          "from": "https://registry.npmjs.org/async/-/async-1.5.2.tgz",
-          "resolved": "https://registry.npmjs.org/async/-/async-1.5.2.tgz"
+          "version": "https://registry.npmjs.org/async/-/async-1.5.2.tgz",
+          "integrity": "sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo="
         }
       }
     },
     "waterline-errors": {
-      "version": "0.10.1",
-      "from": "https://registry.npmjs.org/waterline-errors/-/waterline-errors-0.10.1.tgz",
-      "resolved": "https://registry.npmjs.org/waterline-errors/-/waterline-errors-0.10.1.tgz"
+      "version": "https://registry.npmjs.org/waterline-errors/-/waterline-errors-0.10.1.tgz",
+      "integrity": "sha1-7mNjKq3emTJxt1FLfKmNn9W4ai4="
     },
     "waterline-sequel": {
-      "version": "0.6.4",
-      "from": "https://registry.npmjs.org/waterline-sequel/-/waterline-sequel-0.6.4.tgz",
-      "resolved": "https://registry.npmjs.org/waterline-sequel/-/waterline-sequel-0.6.4.tgz"
+      "version": "git+https://github.com/namelessichi/waterline-sequel.git#31ad74501a9f76adf372f29f642e60dae4c5983b",
+      "requires": {
+        "lodash": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      }
     }
   }
 }

@@ -26,7 +26,7 @@
     "mysql": "2.11.1",
     "waterline-cursor": "^0.0.7",
     "waterline-errors": "0.10.1",
-    "waterline-sequel": "0.6.4"
+    "waterline-sequel": "git+https://github.com/namelessichi/waterline-sequel.git"
   },
   "devDependencies": {
     "mocha": "3.0.2",
